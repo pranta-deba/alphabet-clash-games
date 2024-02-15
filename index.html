@@ -38,7 +38,7 @@
                                 watch keyboard while playing...</p>
                         </div>
                         <div class="h-full flex justify-center items-center">
-                            <p id="alphabetDisplay" class="text-black text-9xl font-semibold">Y</p>
+                            <p id="alphabetDisplay" class="text-black text-9xl font-semibold"></p>
                         </div>
                     </div>
                 </div>
@@ -82,26 +82,26 @@
                         class="btn flex justify-center items-center bg-[#894189]  text-white text-sm font-medium hover:text-black outline-none border-none rounded-[30px] px-7">
                         <span>Life</span>
                         <span><i class="fa-solid fa-heart-pulse"></i></span>
-                        <span>1</span>
+                        <span id="lifeBoard">5</span>
                     </button>
                     <button
                         class="btn flex justify-center items-center bg-[#894189]  text-white text-sm font-medium hover:text-black outline-none border-none rounded-[30px] px-7">
                         <span>Score</span>
                         <span><i class="fa-solid fa-sack-dollar"></i></span>
-                        <span>1</span>
+                        <span id="scoreBoard">0</span>
                     </button>
                 </div>
             </div>
         </section>
         <!-- play ground end -->
         <!-- score board start -->
-        <section id="score-board" class="flex justify-center items-center h-full hidden">
+        <section id="final-score-board" class="flex justify-center items-center h-full hidden">
             <div class="text-white text-center space-y-5 bg-[#FFFFFF33] p-8 rounded-2xl">
                 <h1 class="poppins text-6xl">
                     <span class="font-extrabold">Score :</span>
-                    <span>13</span>
+                    <span id="finalScore">13</span>
                 </h1>
-                <button class="btn text-2xl font-semibold px-4 poppins">Play again</button>
+                <button id="playAgain" class="btn text-2xl font-semibold px-4 poppins">Play again</button>
                 <p class="poppins text-xl font-medium">Practice will make you Pro</p>
             </div>
         </section>
